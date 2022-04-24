@@ -143,7 +143,7 @@ cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with t
 
 #Play
 play_1 : "🔄 Processing Query... Please Wait!"
-play_2 : "**🏷Channel Play Mode**\n\n🔄 Processing Query... Please Wait!\n**Linked Channel:** {0}"
+play_2 : "**🏷 Channel Play Mode**\n\n🔄 Processing Query... Please Wait!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
 play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
@@ -152,7 +152,7 @@ play_7 : "Sorry! Bot only allows limited number of video calls due to CPU overlo
 play_8 : "Not A Valid Video File Extension!\n\n**Supported Formats:** {0}"
 play_9 : "Video File Size Should Be Less Than 1 GiB"
 play_10 : "**Youtube Playlist Feature**\n\nSelect the Mode in which you want to play whole Youtube Playlist"
-play_11 : "📎Title: **{0}\n\n⏳Duration:** {1} Mins"
+play_11 : "📎 Title: **{0}\n\n⏳ Duration:** {1} Mins"
 play_12 : "**Spotify Play Mode**\n\nRequested By:- {0}"
 play_13 : "**Apple Playlists**\n\nRequested By:- {0}"
 play_14 : "**Unable to verify the URL.**\nBot wonders if this url belongs to any of the following platforms: Youtube, AppleMusic, Spotify, Resso and Soundcloud.\n\nYou can use /stream for M3u8 or Remote Links."
@@ -200,7 +200,7 @@ tracks_2 : "**Error**\n\nThere's no **{0} Top 10 Playlist** on bot's servers. Pl
 #Lyrics
 lyrics_1 : "**Usage:**\n\n/lyrics [ Music Name]"
 lyrics_2 : "Searching Lyrics"
-lyrics_3 : "❌ Failed to fetch lyrics😭.\n\n💡**Tried Searching For:** {0}"
+lyrics_3 : "❌ Failed to fetch lyrics.\n\n💡**Tried Searching For:** {0}"
 lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam types lyrics search."
 
 #Ping
@@ -212,7 +212,7 @@ ping_2 : "{0} is working good with a ping of `{1}` ms.\n\nBot's uptime is {2} an
 song_1 : "You can download Music or Video from YouTube only in private chat. Please start me in private chat."
 song_2 : "**Usage:**\n\n/song [Music Name] or [Youtube Link]"
 song_3 : "Live Link Detected. I am not able to download live youtube videos. "
-song_4 : "**🔗Title:**- {0}\n\nSelect the type in which you want to download."
+song_4 : "**🔗 Title:**- {0}\n\nSelect the type in which you want to download."
 song_5 : "Not a valid Youtube Link"
 song_6 : "Getting Formats.. \n\nPlease Wait.."
 song_7 : "Failed to get available formats for the video. Please try any other track."
@@ -229,7 +229,7 @@ queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "📡 **Started Streaming** 💡\n\n👤**Requested By:** {0}\n🔦**Information: **[Here]({1})"
+stream_1 : "📡 **Started Streaming** 💡\n\n**🏷 Title:** {0}\n⌛️ **Duration**: {1}\n🎧 **Requested By:** {2}"
 stream_2 : "📡 **Started Streaming via URL ** 💡\n\n👤**Requested By:** {0}"
 stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**Duration**: {1}\n👤**Requested By:** {2}"
 stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
